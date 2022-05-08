@@ -1,0 +1,26 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Created%20by-James%20 %20Scott-blue?style=for-the-badge)  \r ![](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB)  ![](https://img.shields.io/badge/npm%20package-express-orange?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-mongoose-cyan?style=flat-square&logo=npm) ![](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)\r  ## Table of Contents:  \r [1. Description](#Description)  \r [2. Acceptance Criteria](#Acceptance-Criteria)  \r [3. Walkthrough Videos](#Walkthrough-Videos)  \r [4. Installation](#Installation)  \r [5. Tests](#Tests)  \r [6. License Details](#License-Details)  \r [7. Submission](#Submission)   \r [8. Questions](#Questions)  \r ## Description:\r This is a set of API for a social network that uses a MongoDB database so that the website can handle large amounts of unstructured data, Express.js for routing, Mongoose ODM, and the moment package to format time stamps.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lupend86/social-network-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lupend86/social-network-api/issues"
+  },
+  "homepage": "https://github.com/Lupend86/social-network-api#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.2"
+  }
+}
